@@ -21,4 +21,4 @@ public record ReportFailed(
     Guid ReportId,
     string ErrorMessage,
     DateTime FailedAt
-);
+); 
