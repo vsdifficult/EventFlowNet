@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using EventFlow.Models.Entities.ReportEntity;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace EventFlow.Api.Data.Configurations;
+namespace EventFlow.Worker.Data.Configurations;
 
 public class ReportEntityConfiguration : IEntityTypeConfiguration<ReportEntity>
 {

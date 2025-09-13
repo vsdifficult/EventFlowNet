@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using EventFlow.Models.Entities.ReportEntity;
-using EventFlow.Api.Data.Configurations; 
+using EventFlow.Worker.Data.Configurations; 
 
-namespace EventFlow.Api.Data;
+namespace EventFlow.Worker.Data;
 
 public class AppDbContext : DbContext
 {

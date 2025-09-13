@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using EventFlow.Api.Controllers.Dtos;
+using EventFlow.Models.Dtos;
 using EventFlow.Models.Enums.ReportEnums;
 using EventFlow.Models.Entities.ReportEntity;
-using EventFlow.Api.Data.Mappers.ReportMapper; 
+using EventFlow.Worker.Data.Mappers.ReportMapper; 
 
-namespace EventFlow.Api.Data.Repositories;
+namespace EventFlow.Worker.Data.Repositories;
 
 public class ReportRepository
 {

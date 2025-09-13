@@ -1,9 +1,9 @@
 
-using EventFlow.Api.Controllers.Dtos; 
+using EventFlow.Models.Dtos; 
 using EventFlow.Models.Enums.ReportEnums;
 using EventFlow.Models.Entities.ReportEntity;
 
-namespace EventFlow.Api.Data.Mappers.ReportMapper;
+namespace EventFlow.Worker.Data.Mappers.ReportMapper;
 
 public class ReportMapper
 { 

@@ -1,7 +1,7 @@
 using EventFlow.Models.Enums.ReportEnums;
 using EventFlow.Models.Entities.ReportEntity; 
 
-namespace EventFlow.Api.Controllers.Dtos;
+namespace EventFlow.Models.Dtos;
 
 public record ReportDto
 {
